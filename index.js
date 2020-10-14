@@ -119,10 +119,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When you are in the global scope, this references the window/console Object.
+  2. This is called implicit binding, this is the most common priciple. When a this.function calls function, the Object that came before function is what this is refering to.
+  3. When you make a constructor function this is refering to the Object this is going to be made by the constructor function.
+  4. When ever we use .call and .apply we are "explicitly binding" the this keyword to the function we are attatching this to.
 */
 
 
